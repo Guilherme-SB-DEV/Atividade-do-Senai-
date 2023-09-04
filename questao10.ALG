@@ -1,17 +1,17 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    litros: real
    tip: caracter
    desc: real
    money: real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("tipo do combustivel: ")
    leia(tip)
    escreval("quantidade em litros: ")
@@ -30,7 +30,7 @@ Inicio
          escreval("total da compra: ", money * desc )
       fimse
    senao
-      se (tip = gasolina) entao
+      se (tip = "gasolina") entao
          money <- litros*6,59
          se (litros <=25) entao
             desc <- 97/100
